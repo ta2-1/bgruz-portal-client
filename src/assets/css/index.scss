@@ -1,0 +1,17 @@
+@import './base.css';
+
+#app {
+  font-weight: normal;
+  height: 100dvh;
+}
+
+a {
+  text-decoration: none;
+}
+*,:after,:before {
+  box-sizing: border-box;
+  border: 0 solid #e5e7eb
+}
+
+@tailwind base;
+@tailwind utilities;
